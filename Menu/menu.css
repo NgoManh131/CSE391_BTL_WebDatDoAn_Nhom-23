@@ -88,3 +88,11 @@
 		margin-bottom: 1.5rem;
 	}
 }
+@media only screen and (min-width: 1100px) {
+	.ourSpecials__item__img {
+		flex: 4;
+	}
+	.ourSpecials__item__info {
+		flex: 3;
+	}
+}
