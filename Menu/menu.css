@@ -1,0 +1,19 @@
+/* page title styles */
+#page__title {
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+}
+.page__title__text {
+	font-size: 1.0 rem;
+	color: var(--black-1);
+}
+@media only screen and (min-width: 768px) {
+	#page__title {
+		/* padding-top: 5rem; */
+		padding-bottom: 1rem;
+	}
+	.page__title__text {
+		/* padding-top: 5rem; */
+		font-size: 3.6rem;
+	}
+}
