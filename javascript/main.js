@@ -31,7 +31,7 @@ navBgOverlayEl.addEventListener('click', navClose)
 AOS.init({
      offset: 200, // offset (tính bằng px) từ điểm kích hoạt ban đầu
      delay: 100, // giá trị từ 0 đến 3000, với bước 50ms
-     duration: 400, // values from 0 to 3000, with step 50ms
+     duration: 400,
      easing: 'ease', // dnới lỏng mặc định cho hoạt ảnh AOS
      once: false, // hoạt ảnh có nên chỉ xảy ra một lần hay không - trong khi cuộn xuống
      mirror: false, // liệu các phần tử có nên hoạt ảnh trong khi cuộn qua chúng hay không
