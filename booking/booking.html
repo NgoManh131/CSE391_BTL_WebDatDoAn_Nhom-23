@@ -61,7 +61,7 @@
                <div class="container">
                     <h3 class="form__title">Book Table</h3>
                     <div class="form__wrapper">
-                         <form name="booking" action="http://127.0.0.1:5501/booking/message.html" method="get" netlify >
+                         <form name="booking" method="POST" netlify>
                               <div class="form__group">
                                    <label for="firstName">First Name</label>
                                    <input type="text" id="firstName" name="First Name" required>
@@ -108,7 +108,7 @@
                                    <label for="note">Note</label>
                                    <textarea name="Note" id="note" rows="4"></textarea>
                               </div>
-                              <button type="submit" class="btn primary-btn" action="http://127.0.0.1:5501/booking/message.html">Book Table</button>
+                              <button type="submit" class="btn primary-btn">Book Table</button>
                          </form>
                     </div>
                </div>
@@ -230,6 +230,5 @@
           <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
           <!-- custom scripts -->
           <script src="../javascript/main.js"></script>
-          
      </body>
 </html>
